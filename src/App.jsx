@@ -1,7 +1,11 @@
-function App() {
+import Input from "./components/input"
 
+function App() {
   return (
-    <h1>CleanPro</h1>
+    <>
+      <Input placeholder="Email" />
+      <Input placeholder="Введите пароль" />
+    </>
   )
 }
 
